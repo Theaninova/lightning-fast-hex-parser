@@ -7,7 +7,7 @@
  * @param c the input string (must be 8 chars long)
  * @return the parsed integer
  */
-unsigned long parse_uint32_3(const char c[8]) {
+inline unsigned long parse_uint32_3(const char c[8]) {
     // ascii '0' is            0011 0000           1100 1111
     // ascii '1' subsequently  0011 0001           1100 1110
     // ascii '9' is            0011 1001           1100 0110
